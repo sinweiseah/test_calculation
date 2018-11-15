@@ -8,4 +8,4 @@ summation = summation + aLoop.valueTwo
 }
 
 execution.setVariable("setNumber", summation)
-return ["setNumber", summation]
+return {"setNumber": summation}
